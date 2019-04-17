@@ -23,6 +23,7 @@ https://webpack.js.org/guides/getting-started/
 > Note that webpack will not alter any code other than import and export statements. If you are using other ES2015 features, make sure to use a transpiler such as Babel or Bublé via webpack's loader system.
 > 
 > 
+> At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles
 
 Here are the first lines, to keep, that are deep, in webpack docuementation  (comared to webpack's total depth, wwe'll hpoefully see deeper things, in our little humans life) : 
 
@@ -32,7 +33,15 @@ Here are the first lines, to keep, that are deep, in webpack docuementation  (co
   * the developer uses the `ES2015` to specify dependency relations between`ES2015` modules, at code edtion time,
   * webpack, at build time, compiles `ES2015` to whatever JavaScript the browser(s) supports.
   * You deploy what's produced by webapck build, to servers.
-
+* webpack supports all browsers that are [ES5-compliant](https://kangax.github.io/compat-table/es5/) : 
+  * `IE8` and below are not supported. 
+  * webpack needs `Promise` for `import()` and `require.ensure()`. If you want to support older browsers, you will need to load a [`polyfill`](https://en.wikipedia.org/wiki/Polyfill_%28programming%29) before using these expressions.
 Here you go.
 
-
+> 
+> ### `polyfill`
+> 
+> In web development, a polyfill is code that implements a feature on web browsers that do not support the feature.
+> 
+> wikipedia.
+> 
