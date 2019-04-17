@@ -45,3 +45,9 @@ Here you go.
 > 
 > wikipedia.
 > 
+
+_My Little thoughts_
+
+* You should learn `TypeScript` with `Webpack`
+* You should learn `Webpack` with `TypeScript`
+
