@@ -46,8 +46,16 @@ Here you go.
 > wikipedia.
 > 
 
+# Webpack configuration concepts
+
+https://webpack.js.org/concepts/configuration/
+
+# Learning Typescript with Webpack, Learning WEbpack with typescript
+
 _My Little thoughts_
 
 * You should learn `TypeScript` with `Webpack`
 * You should learn `Webpack` with `TypeScript`
+
+https://webpack.js.org/guides/typescript/#basic-setup
 
